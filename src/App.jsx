@@ -6,6 +6,7 @@ import Hero from "./Components/Hero";
 import Pricing from "./Components/Pricing";
 import Roadmap from "./Components/Roadmap";
 import Services from "./Components/Services";
+import Footer from "./Components/Footer";
 const App = () => {
   return (
     <>
@@ -13,12 +14,13 @@ const App = () => {
         <Header />
         <Hero />
         <Benefits />
-        <Collaboration/>
-        <Services/>
+        <Collaboration />
+        <Services />
+        <ButtonGradient />
+        <Pricing />
+        <Roadmap />
+        <Footer/>
       </div>
-      <ButtonGradient />
-      <Pricing/>
-      <Roadmap/>
     </>
   );
 };
